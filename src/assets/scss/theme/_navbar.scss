@@ -50,9 +50,10 @@
 
 .navbar-light {
   color: $navbar-light-color;
+  opacity: 0; // changelog: added this line to remove white navbar
 
   &:before {
-    opacity: 1;
+    opacity: 0; // changelog: original was 0
   }
 
   // Brand
