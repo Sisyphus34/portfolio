@@ -4,7 +4,7 @@
 <head>
   @@include("partials/head.html", {
   "css": "theme",
-  "title": "Picardy | Welcome"
+  "title": "Shawn Picardy Home"
   })
 </head>
 
@@ -15,11 +15,7 @@
   @@include("partials/navbar.html", {
   "togglable": true,
   "type": "dark",
-  "page": "index-header-video.html",
-  "button": {
-  "url": "https://themes.getbootstrap.com/product/incline-landing-page-set/",
-  "text": "Purchase now"
-  }
+  "page": "index.html"
   })
 
   <!-- HERO
@@ -37,41 +33,23 @@
     <!-- Overlay -->
     <div class="bg-overlay"></div>
 
-    <!-- Triangles -->
-    <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"></div>
-    <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"></div>
-
     <!-- Content -->
     <div class="container">
       <div class="row justify-content-center align-items-center">
         <div class="col-md-8 col-lg-7">
 
-          <!-- Preheading -->
-          <p class="font-weight-medium text-center text-xs text-uppercase text-white text-muted" data-toggle="animation"
-            data-animation="fadeUp" data-animation-order="0" data-animation-trigger="load">
-            by Shawn Picardy
-          </p>
+          <!-- Change log: Deleted Preheading -->
 
           <!-- Heading -->
           <h1 class="text-white text-center mb-4" data-toggle="animation" data-animation="fadeUp"
             data-animation-order="1" data-animation-trigger="load">
-            Landing pages for any occasion
+            Shawn Picardy
           </h1>
 
           <!-- Subheading -->
           <p class="lead text-white text-muted text-center mb-5" data-toggle="animation" data-animation="fadeUp"
             data-animation-order="2" data-animation-trigger="load">
-            Incline is set of landing and support pages aimed at helping companies promote new products and business
-            launches.
-          </p>
-
-          <!-- Button -->
-          <p class="text-center mb-0" data-toggle="animation" data-animation="fadeUp" data-animation-order="3"
-            data-animation-trigger="load">
-            <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank"
-              class="btn btn-outline-primary text-white">
-              Purchase now
-            </a>
+            Software Engineer | Computer Scientist | Web Developer
           </p>
 
         </div>
@@ -81,15 +59,15 @@
   </section>
 
   <!-- SECTIONS
-      ================================================== -->
-  @@include("company.html")
+    ================================================== -->
+  @@include("partials/pages/welcome.html")
 
   <!-- FOOTER
-      ================================================== -->
+    ================================================== -->
   @@include("partials/footer.html")
 
   <!-- JAVASCRIPT
-      ================================================== -->
+    ================================================== -->
   @@include("partials/scripts.html")
 
 </body>
