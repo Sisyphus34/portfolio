@@ -9240,7 +9240,7 @@ label {
 .navbar-light {
   color: #212529; }
   .navbar-light:before {
-    opacity: .65; }
+    opacity: .825; }
   .navbar-light .navbar-brand-svg-i {
     color: #72f9f9c9; }
 
@@ -10196,3 +10196,9 @@ h1, .h1,
 
 .bg-darker {
   background-color: #212529 !important; }
+
+.container-pad {
+  padding: 30px; }
+
+.iconcolor {
+  color: rgba(0, 129, 129, 0.767); }

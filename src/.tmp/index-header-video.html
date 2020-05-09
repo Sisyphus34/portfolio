@@ -96,17 +96,16 @@
               Menu
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarWelcome">
-              <a class="dropdown-item " href="index.html">
+              <a class="dropdown-item @@if ( page == 'index.html' ) " href="index.html">
                 Technical Skills
               </a>
-              <a class="dropdown-item "
-                href="index-header-carousel.html">
+              <a class="dropdown-item @@if ( page == 'index-header-carousel.html' ) " href="index-header-carousel.html">
                 Contact
               </a>
             </div>
           </li>
           <li class="nav-item">
-            <a href="#" target="_blank" class="nav-link">
+            <a href="#aboutme" class="nav-link">
               about me
             </a>
           </li>
@@ -181,8 +180,82 @@
   ================================================== -->
   <section class="section" id="pages">
 
+
+    <!-- TECHNICAL SKILLS
+  ================================================== -->
+    <div class="container container-pad iconcolor">
+      <div class="row align-items-center" id="aboutme">
+        <div class="col-2">
+
+          <!-- Heading -->
+          <h2 class="text-center">
+            Technical Skills
+          </h2>
+          <i class="fab fa-accusoft fa-6x"></i>
+        </div>
+        <div class="col-2">
+          <p>
+            <i class="fab fa-java fa-3x"></i>
+            Java
+          </p>
+          <p>
+            <i class="fab fa-python fa-3x"></i>
+            Python
+          </p>
+
+        </div>
+        <div class="col-2">
+          <p>
+            <i class="fab fa-html5 fa-3x"></i>
+            HTML
+          </p>
+          <p>
+            <i class="fab fa-css3 fa-3x"></i>
+            CSS
+          </p>
+        </div>
+        <div class="col-2">
+          <p>
+            <i class="fab fa-aws fa-3x"></i>
+            Amazon Web
+          </p>
+          <p>
+            <i class="fab fa-js-square fa-3x"></i>
+            JavaScript
+          </p>
+
+        </div>
+        <div class="col-2">
+          <p>
+            <i class="fab fa-node-js fa-3x"></i>
+            Node.js
+          </p>
+          <p>
+            <i class="fab fa-react fa-3x"></i>
+            React.js
+          </p>
+
+
+        </div>
+        <div class="col-2">
+          <p>
+            <i class="fab fa-linux fa-3x"></i>
+            Linux
+          </p>
+          <p>
+            <i class="fab fa-docker fa-3x"></i>
+            Docker
+          </p>
+
+        </div>
+      </div> <!-- / .row -->
+    </div>
+
+    <!--
+  ================================================== -->
+
     <!-- Content -->
-    <div class="container">
+    <div class="container container-pad">
       <div class="row justify-content-center">
         <div class="col-md-8 col-lg-6">
 
@@ -286,7 +359,30 @@
           </a> <!-- / .card -->
 
         </div>
-        <div class="col-md-4">
+        <div class="container container-pad">
+          <div class="row" id="aboutme">
+            <div class="col-6">
+
+              <!-- Heading -->
+              <h2 class="text-left mb-4">
+                Get to know me
+              </h2>
+
+              <!-- Subheading -->
+              <p class="text-muted text-left mb-5">
+                I am graduating with a Bachelor of Science in Computer Science degree from Clemson University in December,
+                2020. I am passionate about developing software that is convenient, yet focused on knowledge optimization.
+
+              </p>
+
+            </div>
+            <div class="col-6">
+              <img src="assets/img/59.jpg" alt="App landing" class="img-fluid">
+
+            </div>
+          </div> <!-- / .row -->
+        </div>
+
   </section>
 
   <!-- FOOTER
@@ -299,7 +395,7 @@
 
     <!--Content -->
     <div class="container">
-      <div class="row align-self-center">
+      <div class="row align-items-center">
         <!-- Brand -->
         <div class="col-md-1">
           <p class="text-md-left">
@@ -333,7 +429,7 @@
         </div>
 
         <!-- Copyright -->
-        <div class="col-md-8">
+        <div class="col-8">
           <p class="text-white text-muted text-md-right">
             <small>
               &copy; Copyright <span class="current-year"></span> Shawn Picardy. All rights reserved.
