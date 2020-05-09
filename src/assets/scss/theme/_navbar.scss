@@ -11,9 +11,9 @@
     content: '';
     position: absolute;
     top: 0; bottom: 0; left: 0; right: 0;
-    background-color: white;
+    background-color: $aqua-100;
     border-bottom: 1px solid $border-color;
-    opacity: 0;
+    opacity: .10;
     transition: $transition-fade;
     z-index: -1;
   }
@@ -52,7 +52,7 @@
   color: $navbar-light-color;
 
   &:before {
-    opacity: 1;
+    opacity: .65;
   }
 
   // Brand

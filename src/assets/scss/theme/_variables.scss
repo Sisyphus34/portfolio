@@ -23,8 +23,12 @@ $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
+$aqua-100: #72f9f9 !default; // change log: added this variable
+$aqua-200: #14adad9b !default; // change log: added this variable
 
-$primary: #f5ba4b !default;
+$primary: #72f9f9c9 !default; // change log: change from gold
+
+//$primary: #f5ba4b !default;
 
 // The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
 $yiq-contrasted-threshold: 200 !default;
@@ -80,7 +84,7 @@ $paragraph-margin-bottom: 1.5rem !default;
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
-  xl: 1200px
+  xl: 1600px // change log: original was 1200px
 ) !default;
 
 
@@ -134,14 +138,14 @@ $headings-line-height: 1.5 !default;
 $headings-color: $body-color !default;
 $headings-letter-spacing: -.05em !default;
 
-$h1-font-size: 34px !default; // 34px
+$h1-font-size: 44px !default; // 34px change log
 $h2-font-size: 26px !default; // 26px
 $h3-font-size: 22px !default; // 22px
 $h4-font-size: 18px !default; // 18px
 $h5-font-size: 16px !default; // 16px
 $h6-font-size: 15px !default; // 15px
 
-$h1-font-size-sm: 34px !default;  // 34px
+$h1-font-size-sm: 44px !default;  // 34px change log
 $h2-font-size-sm: 26px !default;  // 26px
 $h3-font-size-sm: 22px !default;  // 22px
 $h4-font-size-sm: 18px !default;  // 18px
@@ -301,16 +305,16 @@ $nav-link-color: $body-color;
 
 // Navbar
 
-$navbar-padding-y: 1.25rem !default;
+$navbar-padding-y: .75rem !default; //change log: original 1.25rem
 
-$navbar-nav-link-padding-y: 1rem !default;
-$navbar-nav-link-padding-x: 1rem !default;
+$navbar-nav-link-padding-y: .5rem !default; //change log: original 1rem
+$navbar-nav-link-padding-x: .5rem !default; //change log: original 1rem
 $navbar-nav-link-font-size: $font-size-xs !default;
 $navbar-nav-link-font-weight: $font-weight-medium !default;
 
 $nav-link-height: ($navbar-nav-link-font-size * $line-height-base + $navbar-nav-link-padding-y * 2) !default;
 $navbar-brand-font-size: $font-size-lg !default;
-$navbar-brand-img-size: 1.75rem !default;
+$navbar-brand-img-size: 1.85rem !default; //change log: original 2.75rem
 $navbar-brand-height: $navbar-brand-img-size !default;
 $navbar-brand-padding-y: (($nav-link-height - $navbar-brand-height) / 2) !default;
 
@@ -416,8 +420,8 @@ $breadcrumb-font-size: $font-size-base * .85 !default;
 
 // Sections
 
-$section-padding-y-sm: 5rem !default;
-$section-padding-y: 7.5rem !default;
+$section-padding-y-sm: 7rem !default; // change log: original was 5rem
+$section-padding-y: 7.5rem !default; // change log: original was 7.5rem
 
 
 //
