@@ -76,7 +76,7 @@ $body-color: $gray-900 !default;
 //
 // Style p element.
 
-$paragraph-margin-bottom: 1.5rem !default;
+$paragraph-margin-bottom: 0.1rem !default;
 
 
 // Grid containers
@@ -261,7 +261,7 @@ $dropdown-link-font-weight: $font-weight-medium !default;
 $dropdown-link-hover-bg: $gray-100 !default;
 $dropdown-link-hover-color: $body-color !default;
 
-$dropdown-link-active-color: $primary !default;
+$dropdown-link-active-color: $aqua-100 !default;
 $dropdown-link-active-bg: transparent !default;
 
 $dropdown-item-padding-y: .75rem !default;
@@ -495,7 +495,7 @@ $header-img-height-sm: 100% !default;
 
 // Brands
 
-$brand-item-padding: .5rem 1.5rem !default;
+$brand-item-padding: .5rem .75rem !default;
 $brand-item-font-size: $h1-font-size !default;
 $brand-item-color: $text-muted !default;
 $brand-item-border-color: $border-color !default;
