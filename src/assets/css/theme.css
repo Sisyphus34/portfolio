@@ -10213,7 +10213,8 @@ html, body {
   color: black; }
 
 .center_icon {
-  text-align: center; }
+  text-align: center;
+  padding: 1.5em; }
 
 .icon-col {
   margin-top: 10px;
