@@ -68,7 +68,7 @@
           </li> -->
           <li class="nav-item">
             <a href="https://www.github.com/Sisyphus34" target="_blank" class="nav-link">
-              <i class="fab fa-github fa-2x"></i>
+              <i class="fab fa-github-alt fa-2x"></i>
               <span class="d-xl-none ml-2">
                 Github
               </span>
@@ -93,10 +93,13 @@
               Menu
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarWelcome">
-              <a class="dropdown-item @@if ( page == 'index.html' ) " href="index.html#technical_skills">
+              <a class="dropdown-item @@if ( page == 'index.html' ) " href="#technical_skills">
                 Technical Skills
               </a>
-              <a class="dropdown-item @@if ( page == 'index-header-carousel.html' ) " href="index-header-carousel.html">
+              <a class="dropdown-item @@if ( page == 'index.html' ) " href="#projects">
+                Projects
+              </a>
+              <a class="dropdown-item @@if ( page == 'index.html' ) " href="#">
                 Contact
               </a>
             </div>
@@ -147,9 +150,11 @@
 
 
           <div class="row text-center">
-            <div class="col col-sm-12 col-md-4 col-lg-4 text-white">Software Engineer</div>
-            <div class="col col-sm-12 col-md-4 col-lg-4 text-white">Computer Scientist</div>
-            <div class="col col-sm-12 col-md-4 col-lg-4 text-white">Web Developer</div>
+            <div class="col col-sm-12 col-md-3 col-lg-3 text-white"></div>
+            <div class="col col-sm-12 col-md-2 col-lg-2 text-white">Software Engineer</div>
+            <div class="col col-sm-12 col-md-2 col-lg-2 text-white">Computer Scientist</div>
+            <div class="col col-sm-12 col-md-2 col-lg-2 text-white">Web Developer</div>
+            <div class="col col-sm-12 col-md-3 col-lg-3 text-white"></div>
 
           </div>
           <!-- Software Engineer | Computer Scientist | Web Developer -->
@@ -169,211 +174,213 @@
 
     <!-- TECHNICAL SKILLS
   ================================================== -->
-    <div class="container container-pad icon_color">
+    <div class="container icon_color">
       <div class="row center_icon text-center">
-        <div class=" col col-sm-12 col-md-2">
-
+        <div class=" col col-sm-12 col-md-12">
           <!-- Heading -->
           <h2 class=" center_icon icon_color">
             Technical Skills
-            <i class="fas fa-keyboard fa-3x"></i>
+            <!-- <div>
+              <i class="fas fa-keyboard fa-2x"></i>
+            </div> -->
           </h2>
         </div>
-        <!-- <div class="center_icon">
-            <i class="fas fa-keyboard fa-4x"></i>
-          </div> -->
-        <div class="row">
-          <div class="col-sm-4 icon-col">
-            <i class="fab fa-java fa-3x icon_color"></i>
-            Java
-          </div>
-          <div class="col-sm-4 icon-col">
-            <i class="fab fa-python fa-3x"></i>
-            Python
-          </div>
-
-          <div class="col-sm-4 icon-col">
-            <i class="fab fa-node-js fa-3x"></i>
-            Node.js
-          </div>
-
-          <div class="col-sm-4 icon-col">
-            <i class="fab fa-html5 fa-3x"></i>
-            HTML
-          </div>
-
-          <div class="col-sm-4 icon-col">
-            <i class="fab fa-css3 fa-3x"></i>
-            CSS
-          </div>
-
-          <div class="col-sm-4 icon-col">
-            <i class="fab fa-aws fa-3x"></i>
-            Amazon Web
-          </div>
-
-          <div class="col-sm-4 icon-col">
-            <i class="fab fa-linux fa-3x"></i>
-            Linux
-          </div>
-
-          <div class="col-sm-4 icon-col">
-            <i class="fab fa-docker fa-3x"></i>
-            Docker
-          </div>
-
+      </div>
+      <!-- Tech Icons -->
+      <div class="row center_icon text-center">
+        <div class="col-4 col-sm-4 icon-col" data-toggle="tooltip" data-placement="top" title="Java">
+          <i class="fab fa-java fa-3x icon_color"></i>
         </div>
-      </div> <!-- / .row 2-->
+
+        <div class="col-4 col-sm-4 icon-col" data-toggle="tooltip" data-placement="top" title="HTML">
+          <i class=" fab fa-html5 fa-3x"></i>
+        </div>
+
+        <div class="col-4 col-sm-4 icon-col" data-toggle="tooltip" data-placement="top" title="git">
+          <i class=" fab fa-git-square fa-3x"></i>
+        </div>
+
+        <div class="col-4 col-sm-4 icon-col" data-toggle="tooltip" data-placement="top" title="Python">
+          <i class=" fab fa-python fa-3x"></i>
+        </div>
+
+        <div class="col-4 col-sm-4 icon-col" data-toggle="tooltip" data-placement="top" title="CSS">
+          <i class="fab fa-css3 fa-3x"></i>
+        </div>
+
+        <div class="col-4 col-sm-4 icon-col" data-toggle="tooltip" data-placement="top" title="Amazon Web Services">
+          <i class="fab fa-aws fa-3x"></i>
+        </div>
+
+        <div class="col-4 col-sm-4 icon-col" data-toggle="tooltip" data-placement="top" title="C++">
+          <i class="fab fa-2x">C++</i>
+        </div>
+
+        <div class="col-4 col-sm-4 icon-col" data-toggle="tooltip" data-placement="top" title="React.js">
+          <i class="fab fa-react fa-3x"></i>
+        </div>
+        <br>
+        <div class="col-4 col-sm-4 icon-col" data-toggle="tooltip" data-placement="top" title="Linux">
+          <i class="fab fa-linux fa-3x"></i>
+        </div>
+
+        <div class="col-4 col-sm-4 icon-col" data-toggle="tooltip" data-placement="top" title="JavaScript">
+          <i class="fab fa-js-square fa-3x"></i>
+        </div>
+
+        <div class="col-4 col-sm-4 icon-col" data-toggle="tooltip" data-placement="top" title="Node.js">
+          <i class="fab fa-node-js fa-3x"></i>
+        </div>
+
+        <div class="col-4 col-sm-4 icon-col" data-toggle="tooltip" data-placement="top" title="Docker">
+          <i class="fab fa-docker fa-3x"></i>
+        </div>
+      </div>
+
+
     </div> <!-- / .row -->
-    </div>
-
-    <!--
+  </section>
+  <!--
   ================================================== -->
+  <!-- Content -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6">
 
-    <!-- Content -->
-    <div class="container container-pad">
-      <div class="row justify-content-center">
-        <div class="col-md-8 col-lg-6">
+        <!-- Heading -->
+        <h2 class="text-center mb-4">
+          Projects
+        </h2>
+
+        <!-- Subheading -->
+        <p class="text-muted text-center mb-5">
+          I'm constantly expanding my understanding of computer science through a variety of school and personal
+          projects
+        </p>
+
+      </div>
+    </div> <!-- / .row -->
+    <div class="row">
+      <div class="col-md-4">
+
+        <!-- Item -->
+        <a href="app.html" class="card border-0 mb-3 mb-md-0">
+
+          <!-- Image -->
+          <div class="card-img-top">
+            <img src="assets/img/se.jpg" alt="App landing" class="img-fluid">
+          </div>
+
+          <!-- Body -->
+          <div class="card-body">
+
+            <!-- Title -->
+            <h4 class="card-title">
+              Software Engineering
+            </h4>
+
+            <!-- Body -->
+            <p class="card-text text-muted">
+              Comprised primarily of school projects with a few personal projects.
+            </p>
+
+          </div>
+
+        </a> <!-- / .card -->
+
+      </div>
+      <div class="col-md-4">
+        <!-- Item -->
+        <a href="app.html" class="card border-0 mb-3 mb-md-0">
+
+          <!-- Image -->
+          <div class="card-img-top">
+            <img src="assets/img/net.jpg" alt="App landing" class="img-fluid">
+          </div>
+
+          <!-- Body -->
+          <div class="card-body">
+
+            <!-- Title -->
+            <h4 class="card-title">
+              Data Science
+            </h4>
+
+            <!-- Body -->
+            <p class="card-text text-muted">
+              Artificial Intelligence and Machine Learning Projects (W.I.P)
+            </p>
+
+          </div>
+
+        </a> <!-- / .card -->
+
+      </div>
+      <div class="col-md-4">
+
+
+
+        <!-- Item -->
+        <a href="company.html" class="card border-0 mb-3 mb-md-0">
+
+          <!-- Image -->
+          <div class="card-img-top">
+            <img src="assets/img/59.jpg" alt="App landing" class="img-fluid">
+          </div>
+
+          <!-- Body -->
+          <div class="card-body">
+
+            <!-- Title -->
+            <h4 class="card-title">
+              Web Development and Web Applications
+              <!-- <span class="badge badge-danger">New!</span> -->
+            </h4>
+
+            <!-- Body -->
+            <p class="card-text text-muted">
+              Besides building the site you're using currently.
+            </p>
+
+          </div>
+
+        </a> <!-- / .card -->
+
+      </div>
+      <div class="container" id="aboutme">
+        <div class="col-md-1"></div>
+        <div class="col-12 col-md-5">
 
           <!-- Heading -->
-          <h2 class="text-center mb-4">
-            Projects
+          <h2 class="text-left mb-1">
+            Get to know me
           </h2>
 
           <!-- Subheading -->
-          <p class="text-muted text-center mb-5">
-            I'm constantly expanding my understanding of computer science through a variety of school and personal
-            projects
+          <p class="text-muted text-left mb-2">
+            I am graduating with a Bachelor of Science in Computer Science degree from Clemson University in December,
+            2020. I am passionate about developing software that is convenient, yet focused on knowledge optimization.
           </p>
 
         </div>
-      </div> <!-- / .row -->
-      <div class="row">
-        <div class="col-md-4">
+      </div>
 
-          <!-- Item -->
-          <a href="app.html" class="card border-0 mb-3 mb-md-0">
-
-            <!-- Image -->
-            <div class="card-img-top">
-              <img src="assets/img/se.jpg" alt="App landing" class="img-fluid">
-            </div>
-
-            <!-- Body -->
-            <div class="card-body">
-
-              <!-- Title -->
-              <h4 class="card-title">
-                Software Engineering
-              </h4>
-
-              <!-- Body -->
-              <p class="card-text text-muted">
-                Comprised primarily of school projects with a few personal projects.
-              </p>
-
-            </div>
-
-          </a> <!-- / .card -->
-
-        </div>
-        <div class="col-md-4">
-          <!-- Item -->
-          <a href="app.html" class="card border-0 mb-3 mb-md-0">
-
-            <!-- Image -->
-            <div class="card-img-top">
-              <img src="assets/img/net.jpg" alt="App landing" class="img-fluid">
-            </div>
-
-            <!-- Body -->
-            <div class="card-body">
-
-              <!-- Title -->
-              <h4 class="card-title">
-                Data Science
-              </h4>
-
-              <!-- Body -->
-              <p class="card-text text-muted">
-                Artificial Intelligence and Machine Learning Projects (W.I.P)
-              </p>
-
-            </div>
-
-          </a> <!-- / .card -->
-
-        </div>
-        <div class="col-md-4">
-
-
-
-          <!-- Item -->
-          <a href="company.html" class="card border-0 mb-3 mb-md-0">
-
-            <!-- Image -->
-            <div class="card-img-top">
-              <img src="assets/img/59.jpg" alt="App landing" class="img-fluid">
-            </div>
-
-            <!-- Body -->
-            <div class="card-body">
-
-              <!-- Title -->
-              <h4 class="card-title">
-                Web Development and Web Applications
-                <!-- <span class="badge badge-danger">New!</span> -->
-              </h4>
-
-              <!-- Body -->
-              <p class="card-text text-muted">
-                Besides building the site you're using currently.
-              </p>
-
-            </div>
-
-          </a> <!-- / .card -->
-
-        </div>
-        <div class="container container-pad">
-          <div class="row" id="aboutme">
-            <div class="col-6">
-
-              <!-- Heading -->
-              <h2 class="text-left mb-4">
-                Get to know me
-              </h2>
-
-              <!-- Subheading -->
-              <p class="text-muted text-left mb-5">
-                I am graduating with a Bachelor of Science in Computer Science degree from Clemson University in December,
-                2020. I am passionate about developing software that is convenient, yet focused on knowledge optimization.
-
-              </p>
-
-            </div>
-            <div class="col-6">
-              <img src="assets/img/59.jpg" alt="App landing" class="img-fluid">
-
-            </div>
-          </div> <!-- / .row -->
-        </div>
-
-  </section>
+    </div>
+  </div>
 
   <!-- FOOTER
     ================================================== -->
-  <footer class="bg-darker footer-pad">
+  <footer class="bg-darker">
 
     <!-- Triangles -->
     <!-- <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"></div>
     <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"></div> -->
-
+    <br>
     <!--Content -->
     <div class="container">
       <div class="row align-items-center">
         <!-- Brand -->
-        <div class="col-md-1">
+        <div class="col-6 col-md-1">
           <p class="text-md-left">
             <a href="#" class="footer-brand text-white">
               <svg class="footer-brand-svg" viewBox="0 0 245 80" xmlns="http://www.w3.org/2000/svg"
@@ -389,15 +396,15 @@
 
         </div>
         <!-- Social links -->
-        <div class="col-md-3">
-          <ul class="list-inline list-unstyled text-md-left">
+        <div class="col-6 col-md-3">
+          <ul class="list-inline list-unstyled text-md-left text-right">
             <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-github fa-2x"></i>
+              <a href="https://www.github.com/Sisyphus34">
+                <i class="fab fa-github-alt fa-2x"></i>
               </a>
             </li>
             <li class="list-inline-item ml-3">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/shawn-picardy">
                 <i class="fab fa-linkedin fa-2x"></i>
               </a>
             </li>
@@ -405,13 +412,10 @@
         </div>
 
         <!-- Copyright -->
-        <div class="col-8">
-          <p class="text-white text-muted text-md-right">
-            <small>
-              &copy; Copyright <span class="current-year"></span> Shawn Picardy. All rights reserved.
-            </small>
-          </p>
-
+        <div class="col-12 col-md-8 text-white text-muted text-center text-md-right">
+          <small>
+            &copy; Copyright: <span class="current-year"></span> Shawn Picardy. All rights reserved.
+          </small>
         </div>
 
       </div> <!-- / .row -->
@@ -424,7 +428,7 @@
     ================================================== -->
   <!-- Global JS -->
   <script src="assets/libs/jquery/dist/jquery.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnKt8_N4-FKOnhI_pSaDL7g_g-XI1-R9E"></script>
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnKt8_N4-FKOnhI_pSaDL7g_g-XI1-R9E"></script> -->
 
   <!-- Plugins JS -->
   <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -439,6 +443,12 @@
 
   <!-- Theme JS -->
   <script src="assets/js/theme.min.js"></script>
+
+  <script>
+      $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+      })
+  </script>
 
 </body>
 

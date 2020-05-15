@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 0.1rem; }
 
 abbr[title],
 abbr[data-original-title] {
@@ -2581,7 +2581,7 @@ input[type="button"].btn-block {
     text-decoration: none;
     background-color: #f8f9fa; }
   .dropdown-item.active, .dropdown-item:active {
-    color: #72f9f9c9;
+    color: #72f9f9;
     text-decoration: none;
     background-color: transparent; }
   .dropdown-item.disabled, .dropdown-item:disabled {
@@ -9051,7 +9051,7 @@ label {
     padding-bottom: 10%; } }
 
 .img-effect-info-popup {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.1rem;
   padding: 2rem 1.5rem;
   border-radius: .25rem;
   background-color: #72f9f9c9;
@@ -9373,7 +9373,7 @@ h1, .h1,
     font-size: 2rem; } }
 
 .blockquote {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.1rem;
   padding-left: 1.5rem;
   border-left: 1px solid #72f9f9c9; }
   .blockquote > footer {
@@ -9387,7 +9387,7 @@ h1, .h1,
 
 .list-iconed {
   list-style-type: none;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.1rem;
   padding-left: 0;
   text-align: left; }
 
@@ -9700,7 +9700,7 @@ h1, .h1,
 
 .brand-item {
   display: block;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 0.75rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
   text-align: center;
   font-size: 44px;
@@ -10201,10 +10201,10 @@ html, body {
   background-color: #212529 !important; }
 
 .container-pad {
-  padding-top: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 30px; }
+  padding-top: 1.25rem;
+  padding-left: .35rem;
+  padding-right: .35rem;
+  padding-bottom: 1.25rem; }
 
 .icon_color {
   color: rgba(4, 67, 67, 0.767); }
@@ -10213,8 +10213,7 @@ html, body {
   color: black; }
 
 .center_icon {
-  text-align: center;
-  padding: 1.5em; }
+  text-align: center; }
 
 .icon-col {
   margin-top: 10px;
