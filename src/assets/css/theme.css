@@ -10191,6 +10191,9 @@ h1, .h1,
     margin: 1rem 0 1.5rem;
     border-top: 2px solid #72f9f9c9; }
 
+html, body {
+  overflow-x: hidden; }
+
 .footer-pad {
   padding-top: 12px; }
 
@@ -10198,7 +10201,20 @@ h1, .h1,
   background-color: #212529 !important; }
 
 .container-pad {
-  padding: 30px; }
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px; }
 
-.iconcolor {
-  color: rgba(0, 129, 129, 0.767); }
+.icon_color {
+  color: rgba(4, 67, 67, 0.767); }
+
+.black_text {
+  color: black; }
+
+.center_icon {
+  text-align: center; }
+
+.icon-col {
+  margin-top: 10px;
+  margin-bottom: 10px; }

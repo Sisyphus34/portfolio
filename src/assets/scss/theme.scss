@@ -26,6 +26,9 @@
 // Custom core
 @import 'user';
 
+html, body{
+    overflow-x: hidden;
+}
 
 .footer-pad {
     padding-top: 12px;
@@ -36,9 +39,23 @@
 }
 
 .container-pad{
-    padding: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
 }
 
-.iconcolor {
-    color: rgba(0, 129, 129, 0.767);
+.icon_color {
+    color: rgba(4, 67, 67, 0.767);
+}
+.black_text{
+    color: black;
+}
+.center_icon {
+    text-align: center;
+}
+
+.icon-col {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
