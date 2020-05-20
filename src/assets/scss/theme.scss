@@ -35,7 +35,7 @@ html, body{
 }
 
 .bg-darker {
-    background-color: $gray-900 !important;
+    background-color: rgba(2, 27, 27, 0.856) !important;
 }
 
 .container-pad{
@@ -45,18 +45,91 @@ html, body{
     padding-bottom: 1.25rem;
 }
 
-.icon_color {
-    color: rgba(4, 67, 67, 0.767);
-}
 .black_text{
     color: black;
 }
-.center_icon {
+.title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tech-title{
     text-align: center;
-    // padding: 1.5em;
+    color: rgba(4, 67, 67, 0.767);
+    margin: 10px;
+    font-family: 'Objective';
+    font-size: 34px;
+    border-top: 8px solid rgba(4, 67, 67, 0.767);
+    border-radius: 12px;
+    width: 300px;
+    align-self: center;
 }
 
 .icon-col {
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    // border: 2px dotted rgb(92, 30, 163);
+}
+
+.icon-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 70vw;
+    padding: 10px;
+    color: rgba(4, 67, 67, 0.767);
+    
+}
+.i-child{
+    flex: 1 0 calc(25% - 30px); 
+    margin: 20px;
+    padding: 5px;
+    width: 50px;
+    align-self: center;;
+}
+.icon-container i{
+    transition: all ease 500ms;
+}
+.icon-container i:hover {
+    transform: scale(1.35);
+}
+
+.holding-cell{
+    width: 900px;
+    height: 125px;
+    justify-content: space-around;
+    align-items: center;
+    margin: .25em;
+    padding: .25em;
+    color: rgba(4, 67, 67, 0.767);
+}
+
+.profile-pic{
+    // border: 1px solid rgb(1, 61, 61);
+    // border-radius: 33.3%;
+    width: auto;
+    height: 50vh;
+}
+
+.about-container{
+    // margin: 3rem;
+    // max-width: 50vw;
+    color: rgba(4, 67, 67, 0.767);
+    // max-height: auto;
+}
+.theme-font{
+    color: rgba(4, 53, 53, 0.877);
+}
+.theme-footer{
+    display: inline-flexbox;
 }

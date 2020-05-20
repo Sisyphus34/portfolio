@@ -25,6 +25,7 @@ $gray-900: #212529 !default;
 $black: #000 !default;
 $aqua-100: #72f9f9 !default; // change log: added this variable
 $aqua-200: #14adad9b !default; // change log: added this variable
+$aqua-300: #0d57579b !default; // change log: added this variable
 
 $primary: #72f9f9c9 !default; // change log: change from gold
 
@@ -303,6 +304,7 @@ $nav-link-letter-spacing: 0 !default;
 $nav-link-color: $body-color;
 
 
+
 // Navbar
 
 $navbar-padding-y: .75rem !default; //change log: original 1.25rem
@@ -326,11 +328,11 @@ $navbar-dark-toggler-border-color: transparent !default;
 $navbar-dark-brand-svg-i-color: $primary !default;
 
 $navbar-light-color: $gray-900 !default;
-$navbar-light-hover-color: $primary !default;
+$navbar-light-hover-color: $aqua-300 !default;
 $navbar-light-active-color: $navbar-light-hover-color !default;
 $navbar-light-toggler-icon-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-light-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"), "#", "%23") !default;
 $navbar-light-toggler-border-color: transparent !default;
-$navbar-light-brand-svg-i-color: $primary !default;
+$navbar-light-brand-svg-i-color: $aqua-300 !default;
 
 $navbar-height: ($nav-link-height +  $navbar-padding-y * 2) !default;
 
@@ -562,3 +564,18 @@ $title-letter-spacing: 0 !default;
 $avatar-size: 2rem !default;
 $avatar-size-lg: 2.5rem !default;
 $avatar-size-sm: 1.5rem !default;
+
+// ** Tooltip max width
+$tooltip-max-width:           200px !default;
+// ** Tooltip text color
+$tooltip-color:               black !default;
+$tooltip-font-weight:         bold !default;
+// ** Tooltip background color
+$tooltip-bg:                 $aqua-200 !default;
+$tooltip-opacity:             1.0 !default;
+$tooltip-border-radius:       5px !default;
+
+// ** Tooltip arrow width
+$tooltip-arrow-width:         20px !default;
+// ** Tooltip arrow color
+$tooltip-arrow-color:         $tooltip-bg !default;
