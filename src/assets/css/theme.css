@@ -3430,14 +3430,14 @@ input[type="button"].btn-block {
     display: none; }
 
 .navbar-light .navbar-brand {
-  color: #72f9f9c9; }
+  color: #0d57579b; }
   .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-    color: #72f9f9c9; }
+    color: #0d57579b; }
 
 .navbar-light .navbar-nav .nav-link {
   color: #212529; }
   .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    color: #72f9f9c9; }
+    color: #0d57579b; }
   .navbar-light .navbar-nav .nav-link.disabled {
     color: rgba(0, 0, 0, 0.3); }
 
@@ -3445,7 +3445,7 @@ input[type="button"].btn-block {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #72f9f9c9; }
+  color: #0d57579b; }
 
 .navbar-light .navbar-toggler {
   color: #212529;
@@ -3457,9 +3457,9 @@ input[type="button"].btn-block {
 .navbar-light .navbar-text {
   color: #212529; }
   .navbar-light .navbar-text a {
-    color: #72f9f9c9; }
+    color: #0d57579b; }
     .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
-      color: #72f9f9c9; }
+      color: #0d57579b; }
 
 .navbar-dark .navbar-brand {
   color: #72f9f9c9; }
@@ -9242,7 +9242,7 @@ label {
   .navbar-light:before {
     opacity: .825; }
   .navbar-light .navbar-brand-svg-i {
-    color: #72f9f9c9; }
+    color: #0d57579b; }
 
 .navbar-brand {
   line-height: 1.85rem;
@@ -10030,14 +10030,6 @@ h1, .h1,
   .section-full.section-top > .container > .row {
     min-height: calc(100vh - 7.5rem * 2 - 3.8125rem); } }
 
-@supports ((position: -webkit-sticky) or (position: sticky)) {
-  .sidenav {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 5.8125rem;
-    max-height: calc(100vh - 3.8125rem - 2rem * 2);
-    overflow-y: auto; } }
-
 .slider .flickity-button {
   width: 2.5rem;
   height: 2.5rem;
@@ -10198,7 +10190,7 @@ html, body {
   padding-top: 12px; }
 
 .bg-darker {
-  background-color: #212529 !important; }
+  background-color: rgba(2, 27, 27, 0.856) !important; }
 
 .container-pad {
   padding-top: 1.25rem;
@@ -10268,8 +10260,8 @@ html, body {
   transition: all ease 500ms; }
 
 .icon-container i:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2); }
+  -webkit-transform: scale(1.35);
+          transform: scale(1.35); }
 
 .holding-cell {
   width: 900px;
@@ -10280,3 +10272,16 @@ html, body {
   margin: .25em;
   padding: .25em;
   color: rgba(4, 67, 67, 0.767); }
+
+.profile-pic {
+  width: auto;
+  height: 50vh; }
+
+.about-container {
+  color: rgba(4, 67, 67, 0.767); }
+
+.theme-font {
+  color: rgba(4, 53, 53, 0.877); }
+
+.theme-footer {
+  display: inline-flexbox; }

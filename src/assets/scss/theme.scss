@@ -35,7 +35,7 @@ html, body{
 }
 
 .bg-darker {
-    background-color: $gray-900 !important;
+    background-color: rgba(2, 27, 27, 0.856) !important;
 }
 
 .container-pad{
@@ -101,7 +101,7 @@ html, body{
     transition: all ease 500ms;
 }
 .icon-container i:hover {
-    transform: scale(1.2);
+    transform: scale(1.35);
 }
 
 .holding-cell{
@@ -112,4 +112,24 @@ html, body{
     margin: .25em;
     padding: .25em;
     color: rgba(4, 67, 67, 0.767);
+}
+
+.profile-pic{
+    // border: 1px solid rgb(1, 61, 61);
+    // border-radius: 33.3%;
+    width: auto;
+    height: 50vh;
+}
+
+.about-container{
+    // margin: 3rem;
+    // max-width: 50vw;
+    color: rgba(4, 67, 67, 0.767);
+    // max-height: auto;
+}
+.theme-font{
+    color: rgba(4, 53, 53, 0.877);
+}
+.theme-footer{
+    display: inline-flexbox;
 }
