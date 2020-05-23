@@ -85,7 +85,7 @@ $paragraph-margin-bottom: 0.1rem !default;
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
-  xl: 1600px // change log: original was 1200px
+  xl: 2000px // change log: original was 1200px
 ) !default;
 
 
@@ -111,9 +111,9 @@ $border-radius: 0 !default;
 $box-shadow: 0 25px 100px -5px fade-out(black, .85) !default;
 $box-shadow-dark: 0 25px 100px -5px fade-out(black, .5) !default;
 
-$transition-duration-base: .2s !default;
-$transition-duration-xl: $transition-duration-base * 3 !default;
-$transition-duration-lg: $transition-duration-base * 2 !default;
+$transition-duration-base: .3s !default;
+$transition-duration-xl: $transition-duration-base * 5 !default;
+$transition-duration-lg: $transition-duration-base * 5 !default;
 $transition-duration-sm: $transition-duration-base * .5 !default;
 
 
@@ -137,7 +137,7 @@ $font-weight-bold: 600 !default;
 $headings-font-weight: $font-weight-medium !default;
 $headings-line-height: 1.5 !default;
 $headings-color: $body-color !default;
-$headings-letter-spacing: -.05em !default;
+$headings-letter-spacing: .01em !default;
 
 $h1-font-size: 44px !default; // 34px change log
 $h2-font-size: 26px !default; // 26px
@@ -547,7 +547,7 @@ $faq-item-padding: 1rem 0 !default;
 
 // Animation
 
-$animation-delay: .15s !default;
+$animation-delay: .79s !default;
 $animation-duration: $transition-duration-lg !default;
 $animation-timing-function: ease-in-out !default;
 

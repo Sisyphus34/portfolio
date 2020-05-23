@@ -133,3 +133,80 @@ html, body{
 .theme-footer{
     display: inline-flexbox;
 }
+
+.homepage-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin: 1.5em;
+}
+.homepage-title h1{
+    margin: .5;
+    padding: 0;
+    line-height: 0.75;
+    width: 100%;
+}
+
+.subheading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vw;
+    margin: .5em;
+}
+.subheading p {
+    font-size: 1.55em;
+    font-family: "Calibri", "Arial", sans-serif;
+
+    // line-height: 1.00;
+}
+.title-name{
+    color: white;
+    font-size: 3.5em;
+    font-family: "Calibri", "Arial", sans-serif;
+}
+.title-break{
+    border-bottom: 3px solid white;
+    border-radius: 7.5px;
+    width: 80%;
+    margin: .5em;
+}
+
+.heading-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 30vh;
+}
+@media (max-width: 420px) {
+    .title-name{
+        color: white;
+        font-size: 2.0em;
+        font-family: "Calibri", "Arial", sans-serif;
+    }
+    .subheading p {
+        font-size: .85em;
+        // line-height: 1.00;
+    }
+    .subheading{
+        margin: .5em;
+    }
+ }
+ @media (min-width: 421px) and (max-width: 775px) {
+    .title-name{
+        color: white;
+        font-size: 2.8em;
+        font-family: "Calibri", "Arial", sans-serif;
+    }
+    .subheading p {
+        font-size: 1.0em;
+        // line-height: 1.00;
+    }
+    .subheading{
+        margin: .5em;
+    }
+ }
